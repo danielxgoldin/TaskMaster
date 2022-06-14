@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Times new roman', sans-serif;
+    font-size: 25px;
     line-height: 1;
   }
   
@@ -9,7 +9,7 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(157, 18, 18);
     padding: 10px;
   }
   
@@ -58,14 +58,10 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-left: 1px solid purple;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     background-color: #06AED5;
-    color: white;
+    color: rgb(141, 24, 24);
   }
   
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
