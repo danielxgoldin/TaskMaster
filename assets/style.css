@@ -9,20 +9,16 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid rgb(157, 18, 18);
+    border-left: 1px solid purple(157, 18, 18);
     padding: 10px;
   }
   
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: mediumorchid;
     border-radius: 0;
     border-bottom: 10px solid black;
-  }
-  
-  .description{
-    white-space: pre-wrap;
   }
   
   .time-block{
@@ -30,21 +26,26 @@ body {
     border-radius: 15px;
   }
   
+
+  .description{
+    white-space: pre-wrap;
+  }
+
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
   }
   
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
-  
   .past {
     background-color: #d3d3d3;
     color: white;
+  }
+
+  .hour {
+    background-color: #ffffff;
+    color: burlywood;
+    border-top: 5px dashed lightgray;
   }
   
   .present {
@@ -58,10 +59,10 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid purple;
+    border-left: 10px solid purple;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: #06AED5;
-    color: rgb(141, 24, 24);
+    background-color: lightsalmon;
+    color: darkorchid (141, 24, 24);
   }
   

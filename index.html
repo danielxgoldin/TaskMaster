@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -31,19 +31,20 @@
 
     <!-- Creating Rows for the calendar-->
     <div class="container">
-        <div id="First" class="First Hour">
+
+        <div id="First1" class="First Hour">
             <div class="col-md-1 hour">
                 8 AM
             </div>
-            <textarea class="col-md-10 tasks">
+            <textarea class="col-md-10 description">
             </textarea>
             <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
 
-            <div id="Second" class="Second Hour">
+            <div id="Second2" class="Second Hour">
                 <div class="col-md-1 hour">
                     9 AM
                 </div>
-                <textarea class="col-md-10 tasks">
+                <textarea class="col-md-10 description">
                 </textarea>
                 <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
             </div>
@@ -63,7 +64,7 @@
                 </div>
                 <textarea class="col-md-10 description">
                 </textarea>
-                <button class="btn starBtn  col-md-1"><i class="fas fa-star"></i></button>
+                <button class="btn saveBtn  col-md-1"><i class="fas fa-star"></i></button>
             </div>
     
             <div id="Fifth" class="Fifth Hour">
@@ -79,7 +80,7 @@
                 <div class="col-md-1 hour">
                     1 PM
                 </div>
-                <textarea class="col-md-10 description">
+                <textarea class="col-md-10 tasks">
                 </textarea>
                 <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
             </div>
@@ -93,7 +94,7 @@
                 <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
             </div>
     
-            <div id="Eigth" class="Eigth Hour">
+            <div id="Eighth" class="Eighth Hour">
                 <div class="col-md-1 hour">
                     3 PM
                 </div>
@@ -106,7 +107,7 @@
                 <div class="col-md-1 hour">
                     4 PM
                 </div>
-                <textarea class="col-md-10 description">
+                <textarea class="col-md-10 discription">
                 </textarea>
                 <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
             </div>
@@ -115,11 +116,11 @@
                 <div class="col-md-1 hour">
                     5 PM
                 </div>
-                <textarea class="col-md-10 description">
+                <textarea class="col-md-10 discription">
                 </textarea>
                 <button class="btn saveBtn col-md-1"><i class="fas fa-star"></i></button>
         </div>
-
+<!-- Adding in script to be able to make the calendar function-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
